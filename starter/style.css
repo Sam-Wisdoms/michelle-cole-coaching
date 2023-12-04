@@ -45,6 +45,11 @@ body {
 
     }
 
+    li:not(.logo){
+        padding: 10px;
+    }
+
+
 .navbar_navigation-items {
     margin-top: 50px;
     font-size: 2rem;
@@ -100,6 +105,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.michelle {
+    width: 250px;
+    height: 250px;
+    padding-right: 15px;
+    border-radius: 50%;
 }
 
 .container {
